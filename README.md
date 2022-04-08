@@ -1,4 +1,4 @@
-# [`Luckey-Elijah`][me]'s [`mason`][mason] Brick Templates
+# `Luckey-Elijah`'s [`mason`][mason] Brick Templates
 
 A collection of bricks that I find helpful.
 
@@ -24,9 +24,6 @@ This repository and subsequent bricks are all under the MIT license.
 
 [![License: MIT][license_badge]][license_link]
 
-
-[me]: https://github.com/Luckey-Elijah
 [mason]: https://github.com/felangel/mason
 [license_badge]: https://img.shields.io/badge/license-MIT-blue.svg
 [license_link]: https://opensource.org/licenses/MIT
-
