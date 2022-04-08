@@ -8,11 +8,14 @@ A collection of bricks that I find helpful.
 # activate mason
 dart pub global activate mason_cli
 
+# get all the bricks
+mason get
+
 # create a brick
 mason make <brick>
 
 # creating console_program
-mason make console_program
+mason make console_program --name example
 ```
 
 ## Licensing
