@@ -1,0 +1,20 @@
+name: {{#snakeCase}}{{name}}{{/snakeCase}}
+description: A starting point for a command line/console program.
+version: 1.0.0+1
+publish_to: none
+
+executable:
+  {{#snakeCase}}{{name}}{{/snakeCase}}:
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+dependencies:
+  args: ^2.3.0
+  mason_logger: ^0.1.0-dev.7
+  meta: ^1.7.0
+
+dev_dependencies:
+  mocktail: ^0.2.0
+  test: ^1.19.2
+  very_good_analysis: ^2.4.0
