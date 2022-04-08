@@ -1,1 +1,5 @@
 .mason/bricks.json
+**/hooks/.packages
+**/hooks/pubspec.lock
+**/hooks/.dart_tool
+.gitignore
