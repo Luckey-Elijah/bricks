@@ -1,0 +1,29 @@
+name: console_program
+
+on:
+  pull_request:
+    paths:
+      - ".github/workflows/console_program.yaml"
+      - "console_program/**"
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/console_program.yaml"
+      - "console_program/**"
+
+jobs:
+  generate_and_test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: dart-lang/setup-dart@v1
+
+      - run: dart pub global activate mason_cli
+      - run: mason get
+
+      - run: mason make console_program --name example
+      - name: run tests
+        working-directory: ./example
+        run: dart test
