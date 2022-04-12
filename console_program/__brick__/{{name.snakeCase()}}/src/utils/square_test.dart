@@ -1,5 +1,5 @@
-import 'package:{{#snakeCase}}{{name}}{{/snakeCase}}/{{#snakeCase}}{{name}}{{/snakeCase}}.dart';
 import 'package:test/test.dart';
+import 'package:{{name.snakeCase()}}/{{name.snakeCase()}}.dart';
 
 void main() {
   test('square', () {
