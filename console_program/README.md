@@ -1,6 +1,7 @@
 # console_program
 
-Creates a simple console program that can easily extended to fit your needs.
+Creates a simple console program that can easily be extended to fit your needs. Includes simple,
+fully tested code.
 
 ## Usage
 
@@ -28,8 +29,7 @@ example/
 ├── analysis_options.yaml
 ├── pubspec.lock
 ├── pubspec.yaml
-├── bin/
-│   └── example.dart
+├── bin/example.dart
 ├── lib/
 │   ├── example.dart
 │   └── src/
@@ -41,10 +41,8 @@ example/
 │           ├── square.dart
 │           └── utils.dart
 └── test/src/
-        ├── commands/
-        │   └── square_command_test.dart
-        └── utils
-            └── square_test.dart
+         ├── commands/square_command_test.dart
+         └── utils/square_test.dart
 ```
 
 And then you can run it with:
