@@ -1,3 +1,5 @@
 bricks:
   console_program:
     path: console_program
+  shell_function:
+    path: shell_function

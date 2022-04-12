@@ -1,0 +1,7 @@
+#!/bin/bash
+# The starting point of your shell function.
+
+GREEN='\033[0;32m'
+NC='\033[0m' # No Color
+
+echo "👋 This is the starting point of ${GREEN}{{name.snakeCase()}}${NC}!"
