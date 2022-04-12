@@ -1,0 +1,14 @@
+name: shell_function
+description: A mason brick for creating zsh/shell functions
+
+version: 0.1.0+1
+
+environment:
+  mason: ">=0.1.0-dev <0.1.0"
+
+vars:
+  name:
+    type: string
+    description: Your function name
+    default: my shell function
+    prompt: What is your function name?

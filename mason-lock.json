@@ -1,1 +1,1 @@
-{"bricks":{"hello":{"version":"0.1.0+1"},"console_program":{"path":"console_program"}}}
+{"bricks":{"hello":{"version":"0.1.0+1"},"console_program":{"path":"console_program"},"shell_function":{"path":"shell_function"}}}
