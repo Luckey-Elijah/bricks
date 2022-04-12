@@ -1,10 +1,10 @@
 name: console_program
 description: A starter dart-lang console program.
 repository: https://github.com/Luckey-Elijah/bricks/tree/main/console_program
-version: 0.1.0+2
+version: 0.1.1+1
 
 environment:
-  mason: ">=0.1.0-dev <0.1.0"
+  mason: ">=0.1.0-dev.15 <0.1.0"
 
 vars:
   name:

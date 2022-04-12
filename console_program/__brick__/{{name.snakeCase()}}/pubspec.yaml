@@ -1,10 +1,10 @@
-name: {{#snakeCase}}{{name}}{{/snakeCase}}
+name: {{name.snakeCase()}}
 description: A starting point for a command line/console program.
 version: 1.0.0+1
 publish_to: none
 
 executable:
-  {{#snakeCase}}{{name}}{{/snakeCase}}:
+  {{name.snakeCase()}}:
 
 environment:
   sdk: ">=2.16.0 <3.0.0"

@@ -1,4 +1,4 @@
-# `{{#snakeCase}}{{name}}{{/snakeCase}}`
+# `{{name.snakeCase()}}`
 
 [![style: very good analysis][very_good_analysis_badge]][very_good_analysis_link]
 [![License: MIT][license_badge]][license_link]
@@ -11,10 +11,10 @@ Use this as a local package:
 
 ```sh
 # activate this program
-dart pub global activate --source path <path/to/{{#snakeCase}}{{name}}{{/snakeCase}}>
+dart pub global activate --source path <path/to/{{name.snakeCase()}}>
 
 # run this program
-dart pub global run {{#snakeCase}}{{name}}{{/snakeCase}} --help
+dart pub global run {{name.snakeCase()}} --help
 ```
 
 [license_badge]: https://img.shields.io/badge/license-MIT-blue.svg

@@ -1,8 +1,8 @@
 import 'package:args/args.dart';
-import 'package:{{#snakeCase}}{{name}}{{/snakeCase}}/{{#snakeCase}}{{name}}{{/snakeCase}}.dart';
 import 'package:mason_logger/mason_logger.dart';
 import 'package:mocktail/mocktail.dart';
 import 'package:test/test.dart';
+import 'package:{{name.snakeCase()}}/{{name.snakeCase()}}.dart';
 
 class MockLogger extends Mock implements Logger {}
 

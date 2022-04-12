@@ -2,7 +2,7 @@ import 'package:args/args.dart';
 import 'package:args/command_runner.dart';
 import 'package:mason_logger/mason_logger.dart';
 import 'package:meta/meta.dart';
-import 'package:{{#snakeCase}}{{name}}{{/snakeCase}}/{{#snakeCase}}{{name}}{{/snakeCase}}.dart';
+import 'package:{{name.snakeCase()}}/{{name.snakeCase()}}.dart';
 
 /// {@template square_command}
 /// Entry point for command multiplying the provided value by itself.
