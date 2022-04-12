@@ -1,6 +1,6 @@
 name: shell_function
 description: A mason brick for creating zsh/shell functions
-
+repository: https://github.com/Luckey-Elijah/bricks/tree/main/shell_function
 version: 0.1.0+1
 
 environment:
