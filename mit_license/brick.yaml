@@ -1,6 +1,6 @@
 name: mit_license
 description: Generate MIT license
-
+repository: https://github.com/Luckey-Elijah/bricks/tree/main/mit_license
 version: 0.1.0+1
 
 environment:
