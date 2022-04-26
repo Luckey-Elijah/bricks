@@ -1,7 +1,7 @@
 name: console_program
 description: A starter dart-lang console program.
 repository: https://github.com/Luckey-Elijah/bricks/tree/main/console_program
-version: 0.1.1+1
+version: 0.1.2+1
 
 environment:
   mason: ">=0.1.0-dev.15 <0.1.0"
@@ -12,3 +12,8 @@ vars:
     default: console program
     type: string
     prompt: What is the name of the console program?
+  desc:
+    description: The description of the console.
+    default: A starting point for a command line/console program.
+    type: string
+    prompt: What is the description of the console program?

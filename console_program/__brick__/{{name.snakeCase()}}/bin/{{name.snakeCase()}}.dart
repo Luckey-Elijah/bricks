@@ -6,7 +6,7 @@ Future<int?> main(List<String> args) async {
   final logger = Logger();
   final runner = CommandRunner<int>(
     '{{name.snakeCase()}}',
-    'A starting point for a command line/console program.',
+    '{{desc}}',
   )..addCommand(SquareCommand(logger: logger));
 
   return runner.run(args);

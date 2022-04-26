@@ -1,3 +1,7 @@
+# 0.1.2
+
+- Adds option for a description
+
 # 0.1.1+1
 
 - Upgrades to shorthand lambda syntax (mason >= 0.1.0-dev.15)

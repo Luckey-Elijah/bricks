@@ -1,5 +1,5 @@
 name: {{name.snakeCase()}}
-description: A starting point for a command line/console program.
+description: {{desc}}
 version: 1.0.0+1
 publish_to: none
 
