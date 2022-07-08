@@ -3,3 +3,4 @@
 **/hooks/pubspec.lock
 **/hooks/.dart_tool
 .gitignore
+mason-lock.json
