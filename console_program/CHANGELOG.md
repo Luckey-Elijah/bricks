@@ -1,3 +1,7 @@
+# 0.1.2+3
+
+- upgrade various dependencies
+
 # 0.1.2+2
 
 - Bumps `mocktail` to `0.3.0`
