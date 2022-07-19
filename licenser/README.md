@@ -1,5 +1,7 @@
 # licenser
 
+[![MIT license](https://img.shields.io/badge/license-MIT-blue)](https://opensource.org/licenses/MIT)
+
 [![Powered by Mason](https://img.shields.io/endpoint?url=https%3A%2F%2Ftinyurl.com%2Fmason-badge)](https://github.com/felangel/mason)
 
 Quickly add a common open-source licensing.
@@ -19,3 +21,4 @@ A few resources to get you started if this is your first brick template:
 [2]: https://github.com/felangel/mason/tree/master/packages/mason_cli#readme
 [3]: https://verygood.ventures/blog/code-generation-with-mason
 [4]: https://youtu.be/G4PTjA6tpTU
+
