@@ -1,7 +1,7 @@
-name: license
+name: licenser
 description: Quickly add a common open-source licensing.
 version: 0.1.0+1
-
+repository: https://github.com/Luckey-Elijah/bricks/tree/main/licenser
 environment:
   mason: ">=0.1.0-dev.26 <0.1.0"
 
