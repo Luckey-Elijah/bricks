@@ -5,3 +5,5 @@ bricks:
     path: shell_function
   mit_license:
     path: mit_license
+  license:
+    path: license

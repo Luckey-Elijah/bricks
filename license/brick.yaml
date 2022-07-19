@@ -1,0 +1,17 @@
+name: license
+description: Quickly add a common open-source licensing.
+version: 0.1.0+1
+
+environment:
+  mason: ">=0.1.0-dev.26 <0.1.0"
+
+vars:
+  license:
+    type: enum
+    default: 'MIT license'
+    values:
+      - 'Apache License 2.0'
+      - 'BSD 3-Clause "New" or "Revised" license'
+      - 'GNU General Public License (GPL)'
+      - 'MIT license'
+      - 'Mozilla Public License 2.0'

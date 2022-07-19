@@ -1,1 +1,1 @@
-{"bricks":{"hello":{"version":"0.1.0+1"},"console_program":{"path":"console_program"},"shell_function":{"path":"shell_function"},"mit_license":{"path":"mit_license"}}}
+{"bricks":{"console_program":{"path":"console_program"},"shell_function":{"path":"shell_function"},"mit_license":{"path":"mit_license"},"license":{"path":"license"}}}

@@ -1,0 +1,1 @@
+{{#isApache}}{{> apache }}{{/isApache}}{{#isBsd}}{{> bsd }}{{/isBsd}}{{#isGnu}}{{> gnu }}{{/isGnu}}{{#isMit}}{{> mit }}{{/isMit}}{{#isMozilla}}{{> mozilla }}{{/isMozilla}}
